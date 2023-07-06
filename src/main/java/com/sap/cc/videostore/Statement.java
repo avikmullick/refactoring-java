@@ -71,7 +71,7 @@ class Statement {
    */
   private String rentalLine(Rental rental) {
     double rentalAmount = rental.determineAmount();
-    frequentRenterPoints += rental.determineFrequentRentalPoints();
+    frequentRenterPoints += rental.determineFrequentRenterPoints();
     totalAmount += rentalAmount;
     return formatRentalLine(rental, rentalAmount);
   }
