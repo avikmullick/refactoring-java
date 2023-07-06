@@ -20,10 +20,10 @@ public abstract class Movie {
   public abstract double determineAmount(int daysRented);
 
   /**
-   * determineFrequentRentalPoints
+   * determineFrequentRenterPoints
    *
    * @param daysRented
    * @return
    */
-  public abstract int determineFrequentRentalPoints(int daysRented);
+  public abstract int determineFrequentRenterPoints(int daysRented);
 }

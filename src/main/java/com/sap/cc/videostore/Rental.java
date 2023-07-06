@@ -22,10 +22,10 @@ class Rental {
   }
 
   /**
-   * determineFrequentRentalPoints
+   * determineFrequentRenterPoints
    * @return
    */
   public int determineFrequentRentalPoints(){
-    return movie.determineFrequentRentalPoints(daysRented);
+    return movie.determineFrequentRenterPoints(daysRented);
   }
 }

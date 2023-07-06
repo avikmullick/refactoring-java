@@ -14,7 +14,7 @@ public class NewReleaseMovie extends Movie{
   }
 
   @Override
-  public int determineFrequentRentalPoints(int daysRented) {
+  public int determineFrequentRenterPoints(int daysRented) {
     // add frequent renter points
     int frequentRenterPoints = 1;
     // add bonus for a two day new release rental

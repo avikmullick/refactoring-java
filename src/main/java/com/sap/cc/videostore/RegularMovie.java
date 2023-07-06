@@ -16,7 +16,7 @@ public class RegularMovie extends Movie{
   }
 
   @Override
-  public int determineFrequentRentalPoints(int daysRented) {
+  public int determineFrequentRenterPoints(int daysRented) {
     // add frequent renter points
     int frequentRenterPoints = 1;
     return frequentRenterPoints;
