@@ -25,7 +25,7 @@ class Rental {
    * determineFrequentRenterPoints
    * @return
    */
-  public int determineFrequentRentalPoints(){
+  public int determineFrequentRenterPoints(){
     return movie.determineFrequentRenterPoints(daysRented);
   }
 }
